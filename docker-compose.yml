@@ -3,5 +3,5 @@ services:
     image: thebokichan/frontend-application:latest
     pull_policy: always
     ports:
-      - "8081:80"
+      - "8081:8080"
     restart: unless-stopped
